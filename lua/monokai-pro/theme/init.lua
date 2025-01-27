@@ -35,6 +35,7 @@ local PLUGINS = {
   "lsp",
   "mason",
   "neo-tree",
+  "neogit",
   "noice",
   "notify",
   "nvim-navic",
