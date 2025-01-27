@@ -41,6 +41,8 @@ local PLUGINS = {
   "nvim-tree",
   "nvim-treesitter",
   "nvim-ts-rainbow2",
+  "oil",
+  "orgmode",
   "packer",
   "rainbow-delimiters",
   "renamer",
