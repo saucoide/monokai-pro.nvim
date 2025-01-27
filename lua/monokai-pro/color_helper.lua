@@ -32,8 +32,8 @@ end
 local function rgb_to_hex(rgb)
   local red = string.format("%02x", rgb.r)
   local green = string.format("%02x", rgb.g)
-  local blue = string.format("%02x", rgb.b)
-  return "#" .. red .. green .. blue
+  local orange = string.format("%02x", rgb.b)
+  return "#" .. red .. green .. orange
 end
 
 ---@param hex HexColor | "NONE"
@@ -54,20 +54,20 @@ function M.lighten(hex, amt)
   -- rgb to hex
   local red = string.format("%02x", rgb.r)
   local green = string.format("%02x", rgb.g)
-  local blue = string.format("%02x", rgb.b)
-  return "#" .. red .. green .. blue
+  local orange = string.format("%02x", rgb.b)
+  return "#" .. red .. green .. orange
 end
 
 ---@param alpha HexColorAlpha
 ---@param background HexColor
-function M.rgba(red, green, blue, alpha, background)
+function M.rgba(red, green, orange, alpha, background)
   background = get_blend_background(background)
   local bg_rgb = hex_to_rgb(background)
   -- new color
   red = (1 - alpha) * bg_rgb.r + alpha * red
   green = (1 - alpha) * bg_rgb.g + alpha * green
-  blue = (1 - alpha) * bg_rgb.b + alpha * blue
-  return rgb_to_hex({ r = red, g = green, b = blue })
+  orange = (1 - alpha) * bg_rgb.b + alpha * orange
+  return rgb_to_hex({ r = red, g = green, b = orange })
 end
 
 ---@param hex HexColor | "NONE"

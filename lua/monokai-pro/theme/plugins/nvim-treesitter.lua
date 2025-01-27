@@ -58,8 +58,8 @@ function M.get(c, config, _)
     ["@variable"]                         = { fg = c.base.white },
     ["@variable.builtin"]                 = { fg = c.base.dimmed1, italic = true },
     ["@variable.member"]                  = { fg = c.base.white },
-    ["@variable.parameter"]               = { fg = c.base.blue, italic = true },
-    ["@variable.parameter.builtin"]       = { fg = c.base.blue, italic = true },
+    ["@variable.parameter"]               = { fg = c.base.orange, italic = true },
+    ["@variable.parameter.builtin"]       = { fg = c.base.orange, italic = true },
 
     -- Punctuation
     ["@punctuation.bracket"]              = { fg = c.base.red },
@@ -88,10 +88,10 @@ function M.get(c, config, _)
     ["@markup.environment.name"]          = { fg = c.base.white },
     ["@markup.heading"]                   = { fg = c.base.green, bold = true },
     ["@markup.italic"]                    = { fg = c.base.white, italic = true },
-    ["@markup.link"]                      = { fg = c.base.blue, underline = true },
-    ["@markup.link.label"]                = { fg = c.base.blue, underline = true },
-    ["@markup.link.label.symbol"]         = { fg = c.base.blue, underline = true },
-    ["@markup.link.url"]                  = { fg = c.base.blue, underline = true },
+    ["@markup.link"]                      = { fg = c.base.orange, underline = true },
+    ["@markup.link.label"]                = { fg = c.base.orange, underline = true },
+    ["@markup.link.label.symbol"]         = { fg = c.base.orange, underline = true },
+    ["@markup.link.url"]                  = { fg = c.base.orange, underline = true },
     ["@markup.list"]                      = { fg = c.base.white },
     ["@markup.list.checked"]              = { fg = c.base.white },
     ["@markup.list.markdown"]             = { fg = c.base.white },
@@ -122,7 +122,7 @@ function M.get(c, config, _)
     ["@namespace.cpp"]                     = { fg = c.base.green },
     ["@operator.cpp"]                      = { fg = c.base.red },
     ["@punctuation.delimiter.cpp"]         = { fg = c.sideBar.foreground },
-    ["@type.cpp"]                          = { fg = c.base.blue, italic = styles.type.italic },
+    ["@type.cpp"]                          = { fg = c.base.orange, italic = styles.type.italic },
     ["@variable.cpp"]                      = { fg = c.base.white },
 
     -- Dockerfile
@@ -142,7 +142,7 @@ function M.get(c, config, _)
     ["@string.latex"]                      = { fg = c.base.cyan },
     ["@text.emphasis.latex"]               = { italic = true },
     ["@text.environment.latex"]            = { fg = c.base.green },
-    ["@text.environment.name.latex"]       = { fg = c.base.blue, italic = true },
+    ["@text.environment.name.latex"]       = { fg = c.base.orange, italic = true },
     ["@text.math.latex"]                   = { fg = c.base.magenta },
     ["@text.strong.latex"]                 = { bold = true },
 
@@ -169,7 +169,7 @@ function M.get(c, config, _)
     ["@keyword.scss"]                      = { fg = c.base.red },
     ["@number.scss"]                       = { fg = c.base.magenta },
     ["@property.scss"]                     = { fg = c.base.green },
-    ["@string.scss"]                       = { fg = c.base.blue, italic = true },
+    ["@string.scss"]                       = { fg = c.base.orange, italic = true },
     ["@type.scss"]                         = { fg = c.base.cyan },
 
     -- Lua
@@ -180,7 +180,7 @@ function M.get(c, config, _)
     ["@keyword.function.lua"]             = { fg = c.base.red },
     ["@keyword.lua"]                      = { fg = c.base.red, italic = styles.keyword.italic },
     ["@namespace.lua"]                    = { fg = c.base.red },
-    ["@parameter.lua"]                    = { fg = c.base.blue, italic = true },
+    ["@parameter.lua"]                    = { fg = c.base.orange, italic = true },
     ["@variable.lua"]                     = { fg = c.base.white },
 
     -- Yaml

@@ -141,15 +141,15 @@ M.get = function(filter)
     infoBorder = p.accent5, --"#78dce8",
     infoForeground = p.accent5, --"#78dce8",
     warningBackground = p.dimmed5, --"#403e41",
-    warningBorder = p.accent2, --"#fc9867",
-    warningForeground = p.accent2, --"#fc9867",
+    warningBorder = p.accent3, --"#fc9867",
+    warningForeground = p.accent3, --"#fc9867",
   }
 
   cs.errorLens = {
     errorBackground = hp.blend(p.accent1, 0.1),
     errorForeground = p.accent1,
-    warningBackground = hp.blend(p.accent2, 0.1),
-    warningForeground = p.accent2,
+    warningBackground = hp.blend(p.accent3, 0.1),
+    warningForeground = p.accent3,
     infoBackground = hp.blend(p.accent5, 0.1),
     infoForeground = p.accent5,
     hintBackground = hp.blend(p.accent5, 0.1),
@@ -220,9 +220,10 @@ M.get = function(filter)
     dark = p.dark2, -- "#19181a"
     black = p.dark1, --"#221f22",
     red = p.accent1, -- "#ff6188",
-    green = p.accent4, -- "#a9dc76",
+    orange = p.accent2, -- "#fc9867",
     yellow = p.accent3, -- "#ffd866",
-    blue = p.accent2, -- "#fc9867",
+    green = p.accent4, -- "#a9dc76",
+    blue = p.accent7,  -- "#81A2BE",
     magenta = p.accent6, -- "#ab9df2",
     cyan = p.accent5, -- "#78dce8",
     white = p.text, -- "#fcfcfa",
@@ -231,6 +232,7 @@ M.get = function(filter)
     dimmed3 = p.dimmed3, -- "#727072",
     dimmed4 = p.dimmed4, -- "#5b595c",
     dimmed5 = p.dimmed5, -- "#403e41",
+    dimmedRed = p.dimmedRed -- #CC6666,
   }
 
   cs = vim.tbl_deep_extend("force", cs, Config.overrideScheme and Config.overrideScheme(cs, p, Config, hp) or {})

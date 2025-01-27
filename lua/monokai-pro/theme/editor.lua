@@ -61,7 +61,7 @@ M.setup = function(c, config, hp)
       fg = c.base.black,
     }, -- the column separating vertically split windows
     Folded = {
-      bg = c.editor.foldBackground,
+      bg = c.editor.background,
     }, -- line used for closed folds
     FoldColumn = {
       bg = c.editor.background,
@@ -202,7 +202,7 @@ M.setup = function(c, config, hp)
     Whitespace = {
       fg = c.base.dimmed4,
     }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
-    -- WildMenu = { bg = C.blue, fg = C.black }, -- current match in 'wildmenu' completion
+    -- WildMenu = { bg = C.orange, fg = C.black }, -- current match in 'wildmenu' completion
 
     -- Git
     diffAdded = { fg = c.base.green },
@@ -219,7 +219,7 @@ M.setup = function(c, config, hp)
     -- Neovim
     healthError = { fg = c.base.red },
     healthSuccess = { fg = c.base.green },
-    healthWarning = { fg = c.base.blue },
+    healthWarning = { fg = c.base.orange },
   }
 end
 

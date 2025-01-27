@@ -72,7 +72,7 @@ PALETTE                                                  *monokai-pro-palette*
       red = p.accent1,       -- "#ff6188"
       green = p.accent4,     -- "#a9dc76"
       yellow = p.accent3,    -- "#ffd866"
-      blue = p.accent2,      -- "#fc9867"
+      orange = p.accent2,    -- "#fc9867"
       magenta = p.accent6,   -- "#ab9df2"
       cyan = p.accent5,      -- "#78dce8"
       white = p.text,        -- "#fcfcfa"
@@ -84,7 +84,7 @@ PALETTE                                                  *monokai-pro-palette*
     }
 <
 
-- **Primary Colors:** `red`, `green`, `yellow`, `blue`, `magenta`, `cyan`, `white` are your vibrant accent colors.
+- **Primary Colors:** `red`, `green`, `yellow`, `orange`, `magenta`, `cyan`, `white` are your vibrant accent colors.
 - **Dimmed Colors:** `dimmed1` to `dimmed5` are muted shades for less prominent elements.
 - **Background Colors:** `dark` and `black` serve as your primary and secondary background colors.
 
